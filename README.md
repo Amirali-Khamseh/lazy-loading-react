@@ -1,4 +1,4 @@
-This is a README for a blog : https://blog.amir-khamseh.com/lazy-loading-react
+This is a README for a blog : https://blog.amir-khamseh.com/blog/lazy-loading-react
 
 ## Code Splitting and Lazy Loading 🦥
 
