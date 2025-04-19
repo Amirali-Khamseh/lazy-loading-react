@@ -1,8 +1,10 @@
-import React from "react"
-import LazyComponent from "./componenets/LazyComponent"
+import React, { Suspense } from "react"
+ const LazyComponent = React.lazy(()=>import('./componenets/LazyComponent'))
 function App() {
 return <main>
+  <Suspense fallback={<div> Loading the lazy Componenet ....</div>}>
   <LazyComponent/>
+  </Suspense>
 </main>
 }
 

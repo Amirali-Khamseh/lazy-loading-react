@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Box } from '@react-three/drei';
 
