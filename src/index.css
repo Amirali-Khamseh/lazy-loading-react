@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+main h2,h3{
+  text-align: center;
+}
+.cube-container{
+  margin-top: 100px;
+}
+
+main canvas{
+  background: #00000081;
+  border-radius: 16px;
+}
